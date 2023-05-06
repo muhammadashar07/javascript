@@ -1,0 +1,61 @@
+var a = parseInt(prompt("Enter the first value"))
+var b = parseInt(prompt("Enter the second value"))
+var c = parseInt(prompt("Enter the third value"))
+var d = parseInt(prompt("Enter the forth value"))
+
+if((a>d)){
+    document.write("The greater value is first ")
+}
+else if(a>b){
+    document.write("The grater vlaue is first")
+    
+} else if(a>c){
+
+    document.write("The grater value is  first")
+    
+}else if(b>a) {
+
+    document.write("The grater value is second")
+    
+} 
+else if(b>c) {
+
+    document.write("The grater value is second")
+    
+}
+else if(b>d) {
+
+    document.write("The grater value is second")
+    
+}
+else if(c>a) {
+
+    document.write("The grater value is third")
+    
+}
+else if(c>b) {
+
+    document.write("The grater value is third")
+    
+}
+else if(c>d) {
+
+    document.write("The grater value is third")
+    
+}
+else if(d>a) {
+
+    document.write("The grater value is forth")
+    
+}else if(d>b) {
+
+    document.write("The grater value is forth")
+    
+}
+else if(d>c) {
+
+    document.write("The grater value is forth")
+    
+}
+
+
